@@ -1,0 +1,39 @@
+# Backend Go
+backend-go/bin/
+backend-go/*.sqlite
+*.db
+*.sqlite
+*.sqlite-journal
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production.local
+frontend/.env.development.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+tmp/
+
+# FFmpeg logs
+/tmp/ffmpeg_camera_*.log
+
+# Streams temporários
+streams/
+
+# Environment
+.env
+.env.local
